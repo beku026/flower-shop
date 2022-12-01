@@ -1,0 +1,14 @@
+.button {
+  width: 100%;
+  max-width: 255px;
+  height: 48px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  border: rgba(178, 143, 88, 0.8);
+  background-color: rgba(178, 143, 88, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Rubik:wght@300&display=swap");
+
+.header {
+  max-height: 72px;
+  background: #ffffff;
+
+  .brand {
+    font-size: 20px;
+    line-height: 2.5;
+    font-weight: 700;
+    font-family: Manrope, sans-serif;
+    color: #000000;
+  }
+  .toggler_icon {
+    z-index: 9;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      cursor: pointer;
+    }
+  }
+
+  .navItem {
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 700;
+    font-family: Manrope, sans-serif;
+    margin-left: 32px;
+  }
+  .navItem .header__item {
+    color: #000000;
+  }
+
+  .navText {
+    font-size: 14px;
+    line-height: 142%;
+    font-weight: 700;
+    font-family: Manrope, sans-serif;
+    color: #000000;
+  }
+
+  .selectForm {
+    border: none;
+  }
+
+  .dropbutton {
+    line-height: 5.5;
+    margin-right: 25px;
+  }
+  .dropbutton button {
+    font-size: 14px;
+    line-height: 142%;
+    font-weight: 700;
+    font-family: Manrope, sans-serif;
+    color: #000000;
+  }
+  .icons {
+    display: flex;
+
+    // margin-left: 190px;
+  }
+  .icon__count {
+    position: relative;
+  }
+  .icons__item {
+    color: grey;
+  }
+  .counter {
+    position: absolute;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px 4px;
+    background: red;
+    top: 22px;
+    right: 6px;
+    font-size: 6px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 768px) {
+  .header__items {
+    flex-direction: column;
+  }
+}

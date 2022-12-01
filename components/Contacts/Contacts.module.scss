@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+@import '../../styles/bootstrap_overrides';
+
+.contacts_link{
+    font-size: 14px;
+    margin: 22px 0 25px 0;
+    font-family: 'Manrope', sans-serif;
+   a{
+    text-decoration: none;
+    color: $black;
+  }
+    .main_link.active{
+        font-weight: 600;
+        margin-right: 5px;
+    }
+    .second_link{
+        margin-left: 6px;
+        cursor: pointer;
+    }
+}
+.contact_title{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 64px;
+}
+
+.contact_section{
+    margin: 0 auto;
+    .contacts_item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        .contacts_item__title{    
+            margin-left: 25px;
+            font-size: 17px;
+        }
+        span{
+    font-family: 'Manrope', sans-serif;
+        }
+    }
+}
+.contact_map{
+    margin-top: 65px;
+    margin-bottom: 105px;
+}
+@media screen and (max-width:385px) {
+    .contacts_item{
+        margin-left: 0 !important;
+    }
+    .contacts_item__title{
+        font-size: 15px !important;
+    }
+}

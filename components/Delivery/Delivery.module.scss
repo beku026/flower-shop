@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+@import '../../styles/bootstrap_overrides';
+
+.delivery_link {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  margin: 22px 0 26px 0;
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+  .main_link {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .second_link {
+    margin-left: 6px;
+    cursor: pointer;
+  }
+}
+.delivery_title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+  margin-bottom: 35px;
+}
+.delivery_section {
+  margin-bottom: 68px;
+}
+.delivery_conditions {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.delivery_items {
+  margin-bottom: 20px;
+  font-size: 17px;
+  .image_block {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .info {
+    margin-right: 20px;
+  }
+  span {
+    font-family: 'Manrope', sans-serif;
+  }
+}
+
+.payment_method {
+  margin-bottom: 80px;
+}
+.payment_conditions {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.payment_items {
+  font-size: 17px;
+  text-align: center;
+  .payment_pic {
+    margin-bottom: 14px;
+  }
+  span {
+    font-family: 'Manrope', sans-serif;
+  }
+}
+@media screen and (max-width: 576px) {
+  .delivery_section {
+    margin: 0 0 20px 5px;
+    .delivery_items {
+      font-size: 15px;
+    }
+  }
+}

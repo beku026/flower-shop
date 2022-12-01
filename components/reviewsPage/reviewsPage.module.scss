@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+.content__card {
+  align-items: center;
+  background-color: rgba(196, 196, 196, 0.1);
+  min-height: 209px;
+  margin: 26px 0px;
+}
+@media screen and (max-width: 1200px) {
+  .images {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .star {
+    display: contents;
+  }
+}
+.reviews__colums {
+  .image_text {
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image_text {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .image_title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .image_title {
+    text-align: center;
+  }
+  .reviews__image {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .star {
+    display: flex;
+    justify-content: center;
+  }
+}

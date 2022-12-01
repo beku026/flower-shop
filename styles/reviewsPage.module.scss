@@ -1,0 +1,85 @@
+.reviews__page {
+  .breadcrumb {
+    padding-top: 22px;
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-family: 'Manrope' sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    span {
+      color: #b28f58;
+      padding: 5px;
+    }
+  }
+  .reviews__button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    .reviews__button__item {
+      min-width: 255px;
+      height: 48px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      color: #b28f58;
+      border: 1px solid #b28f58;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .reviews__button__title {
+      padding: 12px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .reviews__button {
+      display: flex;
+      justify-content: center;
+    }
+    .reviews__button__title {
+      font-size: 13px;
+    }
+    .page__title {
+      display: flex;
+      justify-content: center;
+    }
+    .button__title {
+      font-size: 13px;
+    }
+  }
+
+  .page__title {
+    margin-top: 68px;
+    font-size: 32px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .content__button {
+    padding-top: 60px;
+    padding-bottom: 68px;
+    .button {
+      width: 100%;
+      max-width: 255px;
+      height: 48px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      border: rgba(178, 143, 88, 0.8);
+      background-color: rgba(178, 143, 88, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 35px;
+    }
+    .content__arrow {
+      padding-right: 45px;
+    }
+  }
+}

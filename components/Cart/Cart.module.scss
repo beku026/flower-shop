@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+@import '../../styles/bootstrap_overrides';
+
+$regular-font-size: 14px;
+$manrope: 'Manrope', sans-serif;
+/* cartLinkBlock */
+.cart_page {
+  margin-bottom: 200px;
+}
+.cart_link {
+  margin: 22px 0 25px 0;
+  font-family: $manrope;
+  font-size: $regular-font-size;
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+  .main_link,
+  .active {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .second_link {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}
+.cart_title {
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-family: $manrope;
+  font-size: 32px;
+}
+.cart_item__title {
+  font-size: 18px;
+  font-family: $manrope;
+}
+.cart_item {
+  .left_side {
+    margin: 16px 30px 0 0;
+    .flower_section {
+      max-height: 160px;
+      margin-bottom: 16px;
+      .flower_image {
+        img {
+          height: 160px;
+          width: 160px;
+        }
+      }
+      .flower_shop__item {
+        width: 100%;
+        font-family: $manrope;
+        margin-left: 15px;
+        border-bottom: 1px solid rgb(218, 218, 218);
+        .flower_shop__title {
+          font-size: 20px;
+        }
+        .flower_button__group {
+          margin-bottom: 30px;
+          margin-left: -5px;
+          .flower_button {
+            outline: none;
+            border: none;
+            background-color: Transparent;
+          }
+        }
+        .flower_number {
+          font-size: 22px;
+          margin-bottom: 4px;
+        }
+        .flower_single__price {
+          font-weight: bold;
+          font-size: 24px;
+          .flower_cart__price {
+            border-bottom: 1px solid $black;
+            font-weight: 400;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+/* cartLinkBlock */
+
+/* paymentBlock */
+.right_side {
+  font-family: $manrope;
+  .payment_method__header {
+    margin-bottom: 20px;
+    .peyment_header__firstChild {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .peyment_header__secondChild {
+      font-size: 32px;
+      font-weight: 700;
+      .cart_price {
+        border-bottom: 1px solid $black;
+        font-weight: 400;
+        font-size: 18px;
+      }
+    }
+  }
+  .payment_method__button {
+    .peyment_button__Quick {
+      background-color: #b28f58;
+      outline: none;
+      border: none;
+      width: 100%;
+      height: 48px;
+      color: $white;
+      margin-bottom: 12px;
+    }
+    .peyment_button__Checkout {
+      outline: none;
+      border: 1px solid #b28f58;
+      width: 100%;
+      height: 48px;
+      background-color: $white;
+      color: #b28f58;
+      margin-bottom: 20px;
+    }
+  }
+}
+.payment_method_footer {
+  width: 100%;
+  .payment_cards {
+    margin-left: 30px;
+    .payment_button {
+      outline: none;
+      border: none;
+      background-color: Transparent;
+    }
+  }
+}
+
+/* paymentBlock */
+
+@media all and (max-width: 992px) {
+  .cart_item {
+    display: block !important;
+  }
+  .peyment_button__Quick {
+    min-width: 258px;
+  }
+  .peyment_button__Checkout {
+    min-width: 258px;
+  }
+  .flower_button__group {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .flower_button__group {
+    margin-bottom: 45px !important;
+  }
+  .right_side {
+    width: 100% !important;
+  }
+  .flower_shop__title {
+    font-size: 16px !important;
+  }
+  .flower_single__price {
+    font-size: 16px !important;
+  }
+  .peyment_header__firstChild {
+    font-size: 16px !important;
+  }
+  .peyment_header__secondChild {
+    font-size: 16px !important;
+  }
+  .peyment_button__Quick {
+    max-width: 258px;
+  }
+  .peyment_button__Checkout {
+    max-width: 258px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .peyment_button__Quick {
+    max-width: 258px;
+  }
+  .peyment_button__Checkout {
+    max-width: 258px;
+  }
+  .flower_button {
+    width: 30px;
+  }
+  .flower_number {
+    font-size: 16px !important;
+  }
+  .payment_button {
+    width: 40px;
+  }
+}
+@media all and (max-width: 449px) {
+  .flower_button__group {
+    margin-bottom: 33px !important;
+  }
+}
+@media all and (max-width: 387px) {
+  .flower_button__group {
+    margin-bottom: 25px !important;
+  }
+  .flower_shop__title {
+    font-size: 14px !important;
+  }
+  .flower_image {
+    img {
+      width: 130px !important;
+    }
+  }
+}
+
+@media all and (max-width: 366px) {
+  .flower_button__group {
+    margin-bottom: 20px !important;
+  }
+}
+
+@media all and (max-width: 304px) {
+  .flower_button__group {
+    margin-bottom: 0 !important;
+  }
+  .flower_image {
+    img {
+      width: 100px !important;
+    }
+  }
+}

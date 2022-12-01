@@ -1,0 +1,7 @@
+{
+  "extends": ["next/babel", "next/core-web-vitals", "prettier"],
+  "quotes": ["error", "single"],
+  "rules": {
+    "react/no-unescaped-entities": "off"
+  }
+}

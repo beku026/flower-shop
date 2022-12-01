@@ -1,0 +1,104 @@
+.ordering {
+  .breadcrumb_items {
+    margin-top: 22px;
+  }
+
+  .ordering__title {
+    font-size: 32px;
+    line-height: 136%;
+    font-weight: 700;
+    color: #19191d;
+    margin: 31px 0px 24px 0px;
+  }
+  .ordering__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 136%;
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .total__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 136%;
+  }
+  .currency_big {
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .currency {
+    text-decoration: underline;
+    font-weight: normal;
+  }
+  .total__price {
+    font-size: 32px;
+    line-height: 136%;
+    font-weight: 700;
+  }
+  .flower_delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .flower_price {
+    font-size: 20px;
+    line-height: 136%;
+    font-weight: 700;
+  }
+  .flower_info {
+    font-size: 15px;
+    line-height: 136%;
+    font-weight: 400;
+  }
+  .total__block_details {
+    background: rgba(178, 143, 88, 0.08);
+    padding: 10px;
+  }
+  .total__block {
+    margin-top: 74px;
+  }
+  .buyer {
+    margin-top: 60px;
+  }
+  .receiver {
+    margin-top: 60px;
+  }
+  .payment {
+    margin-top: 26px;
+  }
+  .ordering_btn {
+    background: #b28f58cc;
+    color: #fff;
+    border: none;
+    padding: 11px;
+    width: 100%;
+    min-width: 227px;
+    max-height: 48px;
+    margin-bottom: 86px;
+  }
+  .radio_btn {
+    color: #b28f58cc;
+  }
+}
+.checkIcon {
+  border-radius: 50%;
+  color: #fff;
+  background: #b28f58cc;
+  padding: 4px;
+}
+.notify {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 136%;
+}
+.custom-toast {
+  min-width: 445px;
+  min-height: 74px;
+}

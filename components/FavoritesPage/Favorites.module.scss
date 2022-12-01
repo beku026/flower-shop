@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+.breadcrumb {
+  padding-top: 22px;
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Manrope" sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  span {
+    color: #b28f58;
+    padding: 5px;
+  }
+}
+.title {
+  margin-top: 68px;
+  margin-bottom: 26px;
+  font-family: "Manrope" sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #19191d;
+
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 23px;
+    }
+  }
+}
+
+.content {
+  border: 1px solid #eeeeee;
+  margin-bottom: 22px;
+}
+.favorites__page {
+  margin-bottom: 260px;
+}
+
+.favorites__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.favorites__item {
+  position: relative;
+}
+
+.item__like {
+  position: absolute;
+  right: 34px;
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 50%;
+  padding: 8px;
+  line-height: 0.5;
+  margin-top: -127px;
+  // background-color: black;
+}
+.like_icon {
+  color: #b28f58;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.favorites__image {
+  max-width: 260px;
+  max-height: 260px;
+  width: 100%;
+  height: 100%;
+}
+
+.item_title {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Manrope" sans-serif;
+  font-weight: 700;
+  margin-top: 7.9px;
+}
+.item_price {
+  font-family: "Manrope" sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .favorites_title {
+    margin: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .favorites__title {
+    margin: 0px;
+  }
+}
+.content__button {
+  padding-top: 18px;
+  .button {
+    width: 100%;
+    max-width: 255px;
+    height: 48px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #b28f58;
+    border: 1px solid #b28f58;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .counter {
+    padding: 3px;
+    margin: 10px;
+    background-color: #b28f58;
+    color: white;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .item__like {
+    right: 12px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .item__like {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button__title {
+    font-size: 13px;
+  }
+  .item__like {
+    right: 140px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .item__like {
+    right: 155px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .item__like {
+    right: 68px;
+  }
+}

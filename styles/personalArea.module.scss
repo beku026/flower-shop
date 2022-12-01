@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+.personalArea {
+  .personalArea_block {
+    margin-bottom: 290px;
+  }
+  .breadcrumb {
+    margin-top: 22px;
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-family: 'Manrope' sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    span {
+      color: #b28f58;
+      padding: 5px;
+    }
+  }
+  .page__title {
+    padding-top: 61px;
+    .title {
+      font-size: 32px;
+      font-family: 'Manrope' sans-serif;
+      font-weight: 700;
+    }
+  }
+  .setPassVisionButton {
+    border: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #b28f58;
+    font-size: 17px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 600;
+  }
+  .login__info {
+    font-family: 'Manrope' sans-serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 27px;
+  }
+
+  .input__item {
+    width: 100%;
+    height: 53px;
+    border: 1px solid #e0e0e0;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 10px;
+    outline: rgba(178, 143, 88, 0.8);
+    .input__item:focus {
+      border: 2px solid rgba(178, 143, 88, 0.8);
+    }
+  }
+  .loingOptImgSec {
+    transform: rotate(180deg);
+  }
+
+  .content__button {
+    padding-top: 36px;
+    .button {
+      width: 100%;
+      max-width: 255px;
+      height: 48px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      border: rgba(178, 143, 88, 0.8);
+      background-color: rgba(178, 143, 88, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}

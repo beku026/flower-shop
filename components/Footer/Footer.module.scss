@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+.footer__box {
+  min-height: 356px;
+  margin-top: auto;
+  background-color: #202020;
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      cursor: pointer;
+    }
+  }
+  .footer {
+    padding-top: 63px;
+  }
+  .footer__column__1 {
+    padding: 0 auto;
+    .logo {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #b28f58;
+      padding: 0;
+      padding-bottom: 10px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .footer__column__1 {
+      padding: 10px 40px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .footer__column__2 {
+      padding: 10px 40px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .footer__column__3 {
+      padding: 10px 40px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .footer__column__4 {
+      padding: 10px 40px;
+    }
+  }
+  .footer__column__2 {
+    padding: 0 auto;
+    .item {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 14px auto;
+      color: #ffffff;
+      padding-bottom: 21px;
+    }
+  }
+
+  .footer__column__3 {
+    padding: 0 auto;
+    .item__title {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 14px auto;
+      color: #ffffff;
+      padding-bottom: 17px;
+    }
+    .item {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 14px auto;
+      color: #ffffff;
+      padding-bottom: 2px;
+    }
+  }
+  .footer__column__4 {
+    padding: 0 auto;
+    .item__title {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 14px auto;
+      color: #ffffff;
+      padding-bottom: 17px;
+    }
+    .item {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 14px auto;
+      color: #ffffff;
+    }
+  }
+
+  .footer__hr {
+    background: #ffffff;
+    opacity: 0.2;
+  }
+  .year__title {
+    padding-top: 22px;
+    padding-left: 0;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px auto;
+    color: #ffffff;
+  }
+  @media screen and (max-width: 768px) {
+    .year__title {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    li {
+      font-size: 12px;
+    }
+  }
+}

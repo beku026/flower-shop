@@ -1,0 +1,65 @@
+.subscription__item {
+  background-image: url(../../assets/images/subscription/flower.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100%;
+}
+.subscription__item1 {
+  background-image: url(../../assets/images/subscription/flowerr.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100%;
+}
+.btnCatalog {
+  width: 219px;
+  height: 44px;
+  position: absolute;
+  left: 0px;
+  background: #b28f58cc;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  line-height: 136%;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnCatalog:not(.nohover):hover {
+  background: #b28f58cc;
+}
+
+.subscription__button {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -40px;
+  right: -88px;
+}
+.subscription__arrow {
+  position: absolute;
+  left: 182px;
+  top: 10px;
+}
+.subscription__title h1 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 117%;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+}
+.subscription__title {
+  margin: 36px 177px 67px 53px;
+  padding: 33px;
+}
+
+@media (max-width: 992px) {
+  .subscriptions {
+    margin-top: 0px;
+  }
+  .subscription__item {
+    margin-top: 50px;
+  }
+}

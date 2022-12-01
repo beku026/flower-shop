@@ -1,0 +1,32 @@
+.popular {
+  .popular__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  h2.title {
+    font-size: 20px;
+    line-height: 100%;
+    font-family: "Manrope";
+    font-weight: 700;
+    color: #18191f;
+    margin: 18px 0px 18px 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .popular{
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .popular_title {
+    margin: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .popular__title {
+    margin: 0px;
+  }
+}

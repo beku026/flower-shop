@@ -1,0 +1,16 @@
+.newItems {
+  .title {
+    font-size: 20px;
+    line-height: 100%;
+    font-family: "Manrope";
+    font-weight: 700;
+    color: #18191f;
+    margin: 48px 0px 18px 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .newItems {
+    text-align: center;
+  }
+}

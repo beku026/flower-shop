@@ -1,0 +1,180 @@
+.sliderProduct {
+  .breadcrumb_items {
+    font-size: 14px;
+    line-height: 142%;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    margin: 22px 0px 23px 0px;
+  }
+  .breadcrumb_item_active {
+    font-size: 14px;
+    line-height: 142%;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+  }
+  .icecream__price {
+    font-size: 28px;
+    line-height: 136%;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+  }
+  .currency {
+    font-size: 28px;
+    line-height: 136%;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    padding: 5px;
+  }
+
+  .icecream__buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 22px;
+  }
+
+  .btn {
+    color: white;
+    background: #b28f58cc;
+    border: none;
+    max-width: 227px;
+    width: 100%;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c1a579;
+    padding: 0px 20px;
+    line-height: 136%;
+    font-size: 16px;
+    padding: 0px 20px;
+  }
+
+  .btn_card button {
+    height: 48px;
+    max-width: 227px;
+    line-height: 136%;
+    color: #c1a579;
+    background: #fff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 23px;
+    border: 1px solid #c1a579;
+    padding: 0px 20px;
+    font-size: 16px;
+  }
+  .nolink {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .btn__title {
+    margin: 0;
+    padding: 12px;
+  }
+
+  .accordion_block {
+    margin-top: 22px;
+  }
+
+  .accordion__block_title {
+    font-size: 17px;
+    line-height: 136%;
+    font-weight: 700;
+    color: #000000;
+  }
+
+  .accordion__block_text {
+    font-size: 15px;
+    line-height: 136%;
+    font-weight: 400;
+    display: flex;
+  }
+  .accordion__item {
+    box-shadow: none;
+  }
+  h2.title {
+    font-size: 20px;
+    line-height: 100%;
+    font-family: 'Manrope';
+    font-weight: 700;
+    color: #18191f;
+    margin: 48px 0px 18px 0px;
+  }
+  .recomandation__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .breadcrumb_items {
+    align-items: center;
+  }
+  .slider__block {
+    flex-direction: column;
+  }
+  .breadcrumb_items {
+    font-size: 12px;
+  }
+  .slider__item {
+    width: 100%;
+  }
+  .slider__block__content {
+    width: 100%;
+  }
+  .icecream h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .icecream__price {
+    font-size: 20px;
+    text-align: center;
+  }
+  .icecream__buttons {
+    display: flex;
+    align-items: center;
+  }
+  .recomandation__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .item__like {
+    margin-top: -61px;
+    padding: 3px;
+    right: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .icecream__buttons {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .btn_card button {
+    margin-left: 0px;
+  }
+  .icecream h1 {
+    font-size: 24px;
+  }
+  .icecream__price {
+    font-size: 24px;
+  }
+  .currency {
+    font-size: 24px;
+  }
+}
+@media (max-width: 992px) {
+  .recomandation__item {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+.breadcrumb {
+  margin-top: 22px;
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  span {
+    color: #b28f58;
+    padding: 5px;
+  }
+}
+.page__title {
+  padding-top: 61px;
+  .title {
+    font-size: 32px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 700;
+  }
+}
+
+.login__info {
+  font-family: 'Manrope' sans-serif;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  padding-bottom: 27px;
+}
+
+.input__item {
+  width: 100%;
+  height: 53px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+.content__button {
+  padding-top: 36px;
+  .button {
+    width: 100%;
+    max-width: 255px;
+    height: 48px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    border: rgba(178, 143, 88, 0.8);
+    background-color: rgba(178, 143, 88, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.modal_resendblock {
+  margin-bottom: 290px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .button__title {
+    font-size: 13px;
+  }
+}

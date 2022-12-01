@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import "../../styles/bootstrap_overrides";
+
+$regular-font-size: 14px;
+$manrope: "Manrope", sans-serif;
+$caveat: "Caveat", sans-serif;
+.aboutUs_page {
+  margin-bottom: 120px;
+}
+.header_link {
+  margin-top: 22px;
+  font-family: $manrope;
+  font-size: $regular-font-size;
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+  .main_link.active {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .second_link {
+    margin-left: 6px;
+    cursor: pointer;
+  }
+}
+.header_title {
+  text-align: center;
+  font-family: $manrope;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 26px 0 12px 0;
+}
+
+.group_section {
+  max-width: 474px;
+  max-height: 710px;
+}
+.aboutus {
+  text-align: center;
+  font-family: $manrope;
+  margin-bottom: 40px;
+  .about_text__header {
+    font-family: $caveat;
+    font-size: 24px;
+    font-weight: 700;
+    .about_img {
+      top: 9px;
+    }
+  }
+}
+.about_text {
+  p {
+    text-indent: 15px;
+    font-size: 17px;
+    font-family: $manrope;
+  }
+  .first_section {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .about_text {
+    margin-top: 40px;
+  }
+  .second_section {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 400px) {
+  .second_flower {
+    width: 210px;
+  }
+  .main_flower {
+    width: 270px;
+  }
+}

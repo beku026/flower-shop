@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Manrope&family=Rubik:wght@300&display=swap');
+.companies {
+  .breadcrumb_items {
+    margin-top: 22px;
+  }
+  .companies__info {
+    font-size: 36px;
+    line-height: 126%;
+    font-weight: 500;
+    font-family: 'Caveat', sans-serif;
+    margin: 68px 216px;
+    text-align: center;
+  }
+  .companies__title {
+    font-size: 24px;
+    line-height: 136%;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+  }
+  .companies__name {
+    font-size: 36px;
+    line-height: 126%;
+    font-weight: 700;
+    font-family: 'Caveat', sans-serif;
+  }
+  .service__content {
+    font-size: 17px;
+    line-height: 160%;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    margin: 20px 256px 39px 256px;
+  }
+  .companies__title_invitation {
+    font-size: 24px;
+    line-height: 136%;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    margin: 56px 290px 20px 295px;
+  }
+  .invitation__content {
+    font-size: 17px;
+    line-height: 137%;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    margin: 0px 270px 45px 270px;
+    text-align: center;
+  }
+  .contactInfo {
+    background: rgba(178, 143, 88, 0.12);
+  }
+  .contactInfo__content {
+    margin: 69px 0px 69px 0px;
+  }
+  .contactInfo__form {
+    max-width: 400px;
+  }
+  .contactInfo__button {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .contact_btn {
+    min-height: 48px;
+    min-width: 244px;
+    border: none;
+    background: #b28f58cc;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.slider {
+  padding-bottom: 2rem;
+  :global(.swiper-button-prev) {
+    bottom: 0px;
+    left: auto;
+    top: auto;
+    right: 105px;
+    color: #b28f58cc;
+    --swiper-navigation-size: 25px;
+  }
+  :global(.swiper-button-next) {
+    bottom: 0px;
+    left: auto;
+    top: auto;
+    right: 36px;
+    color: #b28f58cc;
+    --swiper-navigation-size: 25px;
+  }
+}
+.slider__counter {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 600;
+  margin-right: 135px;
+  margin-top: -23px;
+}
+
+.contactInfo {
+  position: relative;
+}
+.contactInfo_bg_wrapper {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  overflow: hidden;
+  height: 100%;
+  transform: translate(0px, -50%);
+}
+
+@media (max-width: 992px) {
+  .companies__info,
+  .service__content,
+  .invitation__content,
+  .companies__title_invitation {
+    margin: 0px 0px 20px 0px;
+  }
+}
